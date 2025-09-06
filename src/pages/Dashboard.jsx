@@ -3,7 +3,6 @@ import { useNavigate } from "react-router-dom";
 import API from "../api";
 import ProductForm from "../components/ProductForm";
 import ProductList from "../components/ProductList";
-
 function Dashboard() {
   const [products, setProducts] = useState([]);
   const navigate = useNavigate();
